@@ -1,0 +1,31 @@
+Gevorg Akopyan
+CSIS139
+Prof. Zareh Gorjian
+
+RULES:
+Player health = 10
+Boss health = 10 
+Enemy health = 10
+Heart gives 1 health(it can not be more then ten)
+Every Touch with Enemy removes .1 health
+Every Touch of enemy bullet removes 1 health point
+
+Some walls are sticky , so if you got stuck, you need to go in reverse direction first
+To move into next level need to go through gates
+To win you need to kill Boss, and then touch the drink
+
+
+SCORE RULES
+Kill regular enemy: 5 points
+Got Heart: 1 point
+KiLL boss: 50 points
+
+Notes for Teacher:
+I finished everything. It took 3 full weeks for me. The only thing that's left is changing Sprites.
+
+Because when i did bullet and wall collision it causes bug, when enemy is closely touching wall, you can not kill it, so you need to push it a little bit.
+ But if you remove bullet and wall collision everything is perfect 
+ 
+It took for me a lot of time to draw only how sprite goes down. But i did not put it in because it was only one way.(called sketch in images package)
+I also download another sprite (PlayerSprite) but i did not have sprite where it is shooting, so i just commented it 
+
